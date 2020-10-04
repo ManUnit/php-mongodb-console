@@ -3,10 +3,7 @@
     "description": "Test getgroup",
     "license": "MIT",
     "require": {
-        "nantaburi/mongodb-sql-model": "^1.0",
-        "illuminate/database": "^8.8",
-        "phpoption/phpoption": "^1.7",
-        "vlucas/phpdotenv": "^5.2"
+        "nantaburi/mongodb-sql-model": "^1.0.20"
     },
     "autoload": {
         "psr-4": {
