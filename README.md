@@ -8,3 +8,15 @@ to support Nantaburi  MongoDB interface  https://packagist.org/packages/nantabur
       $ cd php-mongodb-console
       $ composer update
 ````
+- copy example  code for httpd.conf to Apache2 server 
+
+````
+DocumentRoot "D:/project02" 
+<Directory "D:/project02">
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride all
+        Order Deny,Allow
+        Allow from all
+       Require all granted
+</Directory>
+````
